@@ -1,0 +1,82 @@
+.toggle.ios, .toggle-on.ios, .toggle-off.ios { border-radius: 20rem; }
+.toggle.ios .toggle-handle { border-radius: 20rem; }
+.toggle-off.btn-xs ,.toggle-on.btn-xs {
+    padding-top: 0.5rem !important;
+}
+
+.table > tbody > tr > td, .table > tfoot > tr > td, .table > thead > tr > td {
+    padding: 2px 10px 2px 5px;
+
+    font-size: 0.7rem;
+}
+.table > thead > tr > th {
+    padding: 4px 10px 4px 5px;
+
+    font-size: 0.8rem;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+
+
+.parsley-error + ul + div.bootstrap-filestyle > input  {
+    color: #B94A48 !important;
+    background-color: #F2DEDE !important;
+    border: none;
+}
+
+
+
+.parsley-success + ul + div.bootstrap-filestyle > input  {
+    color: #468847 !important;
+    background-color: #DFF0D8 !important;
+    border: 1px solid #D6E9C6 !important;
+
+}
+
+.parsley-error + ul + div.bootstrap-filestyle > input::placeholder  {
+    color: #B94A48 !important;
+    border: 1px solid #EED3D7 !important;
+}
+
+.parsley-success + ul + div.bootstrap-filestyle > input ::placeholder  {
+    color: #468847 !important;
+    border: 1px solid #D6E9C6 !important;;
+}
+
+.dropdown-custom {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-header-custom{
+    color: #6c757d;
+    font-size: 0.875rem;
+}
+
+.dropdown-content-custom {
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 130px;
+    z-index: 99;
+    /*top: 0px;*/
+}
+
+.dropdown-content-custom a {
+    color: #212529;
+    /*padding: 12px 16px;*/
+    text-decoration: none;
+    font-size: 0.8rem;
+    font-weight: 400;
+    display: block;
+}
+
+.dropbtn {
+    background-color: white;
+    color: red;
+    /*padding: 16px;*/
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}

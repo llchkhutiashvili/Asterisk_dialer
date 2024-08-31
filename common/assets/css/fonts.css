@@ -1,0 +1,71 @@
+
+@font-face {
+		font-family: 'BPGNinoMtavruli-Bold';
+		src: url('fonts_geo/bpg_nino/bpgninomtavrulibold.eot');
+		src: url('fonts_geo/bpg_nino/bpgninomtavrulibold.eot?#iefix') format('embedded-opentype'),
+				 url('fonts_geo/bpg_nino/bpgninomtavrulibold.woff') format('woff'),
+				 url('fonts_geo/bpg_nino/bpgninomtavrulibold.ttf') format('truetype'),
+				 url('fonts_geo/bpg_nino/bpgninomtavrulibold.svg#BPGNinoMtavruli-Bold') format('svg');
+		font-weight: normal;
+		font-style: normal;
+}
+
+@font-face {
+				font-family: 'BPGArial';
+				src: url('fonts_geo/bpg_arial/bpgarial2009.eot');
+				src: url('fonts_geo/bpg_arial/bpgarial2009.eot?#iefix') format('embedded-opentype'),
+						 url('fonts_geo/bpg_arial/bpgarial2009.woff') format('woff'),
+						 url('fonts_geo/bpg_arial/bpgarial2009.ttf') format('truetype'),
+						 url('fonts_geo/bpg_arial/bpgarial2009.svg#BPGArial') format('svg');
+				font-weight: bold;
+				font-style: normal;
+		}
+
+
+
+@font-face {
+    font-family: 'BPGMrgvlovani';
+    src: url('fonts_geo/mrglovani/bpg_mrgvlovani_2010.eot');
+    src: url('fonts_geo/mrglovani/bpg_mrgvlovani_2010.eot?#iefix') format('embedded-opentype'),
+         url('fonts_geo/mrglovani/bpg_mrgvlovani_2010.woff') format('woff'),
+         url('fonts_geo/mrglovani/bpg_mrgvlovani_2010.ttf') format('truetype'),
+         url('fonts_geo/mrglovani/bpg_mrgvlovani_2010.svg#BPGMrgvlovani') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.mrgvlovani{
+	 font-family: 'BPGMrgvlovani';
+	font-size: 11px;
+ }
+
+.mrgvlovaniCaps{
+	font-family: 'bpg_mrgvlovani_caps_2010';
+}
+
+.bpgNino {
+	font-family: 'BPGNinoMtavruli-Bold';
+}
+
+.bpgNinoNorm {
+	font-family: 'BPGNinoMtavruli-Normal';
+}
+
+.bpgArial{
+	font-family: 'BPGArial';
+}
+
+.bebas{
+    font-family: 'BebasNeueRegular';
+}
+
+.bpg_gel{
+	font-family: "BPGGel";
+}
+
+
+.dropdown-item.active, .dropdown-item:active{
+	background-color: #6a5db6 !important;
+	color: white !important;
+}
